@@ -95,7 +95,7 @@ function startHeroCarousel(){
   heroTimer=window.setInterval(()=>{
     heroIndex=(heroIndex+1)%heroDogs.length;
     setHeroDog(heroIndex);
-  },260);
+  },500);
 }
 
 startHeroCarousel();
